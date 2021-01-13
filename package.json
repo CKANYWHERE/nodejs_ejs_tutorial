@@ -45,8 +45,8 @@
     "pm2stop": "pm2 stop app",
     "server": "node 'dist/app.js'",
     "build": "tsc --build .",
-    "start": "nodemon 'src/app.ts' --exec 'ts-node' src/app.ts -e ts,json",
-    "cluster": "nodemon 'src/app_cluster.ts' --exec 'ts-node' src/app_cluster.ts -e ts,json",
+    "start": "nodemon 'src/app.ts' --exec 'ts-node' src/app.ts -e ts,json,css,ejs",
+    "cluster": "nodemon 'src/app_cluster.ts' --exec 'ts-node' src/app_cluster.ts -e ts,json,css,ejs",
     "debug": "nodemon --inspect src/app.ts"
   },
   "keywords": [],
